@@ -17,7 +17,7 @@ Stopping the motion detection just kills some processes on the camera and won't 
 * Edit the mqtt.conf and add your MQTT broker ip and login credentials: `vi mqtt.conf`
 * *Remember: To save & close vi, press ESC and enter `:wq` and press Return/Enter*
 * Run the install script `./install.sh`
-* Reboot the camera `reboot`This projects adds a MQTT subscriber and publisher for motion detection to the yi-hack-v3 project.
+* Reboot the camera `reboot`
 
 ## Usage
 

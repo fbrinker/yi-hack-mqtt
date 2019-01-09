@@ -13,7 +13,7 @@ Stopping the motion detection just kills some processes on the camera and won't 
 
 * Login to your camera via telnet/ssh. The username should be `root` and the password isn't set by default.
 * Move into the home directory: `cd /home/yi-hack-v3`
-* Download & untar the project: `wget yi-hack-mqtt-1.tar && tar -xvf yi-hack-mqtt-1.tar && rm yi-hack-mqtt-1.tar && cd mqtt`
+* Download & untar the project: `wget https://github.com/fbrinker/yi-hack-mqtt/releases/download/2/yi-hack-mqtt.tar && tar -xvf yi-hack-mqtt.tar && rm yi-hack-mqtt.tar && cd mqtt`
 * Edit the mqtt.conf and add your MQTT broker ip and login credentials: `vi mqtt.conf`
 * *Remember: To save & close vi, press ESC and enter `:wq` and press Return/Enter*
 * Run the install script `./install.sh`
